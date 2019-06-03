@@ -9,7 +9,11 @@ Weather Report
 
 * set the path variable Path=%CATALINA_HOME%\bin
 
-* Go to C:\apache-tomcat-9.0.20\webapps\myapp and then unzip the war .
+* set "JRE_HOME=C:\jre1.8" in setenv.bat under  C:\apache-tomcat-9.0.20\bin folder
+
+* Go to C:\apache-tomcat-9.0.20\webapps\myapp and then unzip the war or use the below commond to unzip the war file.
+
+  jar -xvf weather.war (Please give the exact path where weather.war is downloaded)
 
 * Go to \apache-tomcat-9.0.20\bin\startup.bat
 
